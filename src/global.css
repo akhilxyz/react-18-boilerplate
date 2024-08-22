@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-sf-pro-display: "SF Pro Display";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-mini: 15px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-3xs: 10px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-whitesmoke: #f3f5f6;
+  --color-gray: #272729;
+  --color-white: #fff;
+  --color-lightslategray-100: #8c8d99;
+  --color-lightslategray-200: rgba(147, 149, 164, 0.1);
+  --color-mediumseagreen: #5fc88f;
+  --color-gainsboro-100: #e3dfdf;
+  --color-gainsboro-200: #d9d9d9;
+  --color-salmon: #ff6464;
+
+  /* Gaps */
+  --gap-12xs: 1px;
+  --gap-xl: 20px;
+  --gap-7xs-3: 5.3px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-10xs: 3px;
+  --gap-11xs: 2px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+  --gap-5xl: 24px;
+  --gap-mid: 17px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-8xl: 27px;
+  --padding-11xs: 2px;
+  --padding-8xs: 5px;
+  --padding-mini-1: 14.1px;
+  --padding-smi: 13px;
+  --padding-5xs-9: 7.9px;
+  --padding-12xl: 31px;
+  --padding-9xs-9: 3.9px;
+  --padding-2xl: 21px;
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-10xs: 3px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+  --padding-base-5: 15.5px;
+  --padding-39xl: 58px;
+  --padding-32xl: 51px;
+
+  /* Border radiuses */
+  --br-13xl: 32px;
+  --br-81xl: 100px;
+  --br-10xs: 3px;
+  --br-10xl: 29px;
+  --br-base: 16px;
+}

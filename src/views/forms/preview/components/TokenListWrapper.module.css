@@ -1,0 +1,414 @@
+.tokens {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 49px;
+}
+.tabTokens {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-32xl);
+}
+.nfts {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 35px;
+}
+.tabNft,
+.tabs {
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tabNft {
+  padding: var(--padding-base-5) var(--padding-39xl);
+  color: var(--color-gray);
+}
+.tabs {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-9xs);
+  gap: var(--gap-mid);
+  z-index: 1;
+}
+.iconNear {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+  min-height: 40px;
+}
+.emergencyTruckRepair,
+.near {
+  position: relative;
+  display: inline-block;
+}
+.near {
+  font-weight: 600;
+  min-width: 44px;
+}
+.emergencyTruckRepair {
+  min-width: 34px;
+  white-space: nowrap;
+}
+.iconUp {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dieselEngineMaintenance {
+  position: relative;
+  display: inline-block;
+  min-width: 30px;
+}
+.fuelFiltersAirFiltersBelts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  text-align: left;
+  color: var(--color-mediumseagreen);
+}
+.price,
+.token,
+.tokenNameContainers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.price {
+  flex-direction: row;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray-100);
+}
+.token,
+.tokenNameContainers {
+  flex-direction: column;
+}
+.token {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.centennialDriveKingston {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 55px;
+}
+.amount1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.amountUnits {
+  width: 52px;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray-100);
+  display: inline-block;
+  min-width: 52px;
+  white-space: nowrap;
+}
+.amount {
+  width: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.nearToken {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.tokenItems {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightslategray-200);
+  box-sizing: border-box;
+}
+.iconOctopus {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 40px;
+}
+.octopusNetwork {
+  position: relative;
+  font-weight: 600;
+}
+.div,
+.div2 {
+  position: relative;
+  display: inline-block;
+}
+.div {
+  width: 31px;
+  min-width: 31px;
+  white-space: nowrap;
+}
+.div2 {
+  min-width: 37px;
+}
+.price1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray-100);
+}
+.div3,
+.div4 {
+  position: relative;
+  display: inline-block;
+}
+.div3 {
+  flex: 1;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  min-width: 54px;
+}
+.div4 {
+  width: 31px;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray-100);
+  min-width: 31px;
+  white-space: nowrap;
+}
+.amount2 {
+  width: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.iconDeip {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  min-height: 40px;
+}
+.deipToken1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 88px;
+}
+.div6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  text-align: left;
+  color: var(--color-salmon);
+}
+.div8 {
+  flex: 1;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  min-width: 87px;
+}
+.deip,
+.div8,
+.div9 {
+  position: relative;
+  display: inline-block;
+}
+.deip {
+  font-weight: 600;
+  min-width: 36px;
+}
+.div9 {
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray-100);
+  min-width: 30px;
+  white-space: nowrap;
+}
+.amount4 {
+  width: 127px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.aurora,
+.icon {
+  position: relative;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-10xl);
+  object-fit: cover;
+  min-height: 40px;
+}
+.aurora {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 53px;
+}
+.div10,
+.div13 {
+  position: relative;
+  min-width: 33px;
+}
+.div10 {
+  display: inline-block;
+  white-space: nowrap;
+}
+.div13 {
+  width: 33px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amount7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.aboutUsImage {
+  width: 34px;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray-100);
+  display: inline-block;
+  min-width: 34px;
+  white-space: nowrap;
+}
+.amount6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.atWestbrookTruckRepairInK {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+  width: 100%;
+  height: 100%;
+}
+.tokenIconPlaceholder {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: var(--br-10xs);
+  width: 29px;
+  height: 29px;
+  object-fit: cover;
+  z-index: 1;
+}
+.atWestbrookTruckRepairInKParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.div14 {
+  display: inline-block;
+  min-width: 31px;
+  white-space: nowrap;
+}
+.div14,
+.div16,
+.div17 {
+  position: relative;
+}
+.div16 {
+  display: inline-block;
+  min-width: 44px;
+}
+.div17 {
+  width: 32px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+}
+.amount9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.div18 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray-100);
+  display: inline-block;
+  min-width: 47px;
+  white-space: nowrap;
+}
+.tabsParent,
+.tokenListWrapper,
+.tokens1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tokens1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+  z-index: 1;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+}
+.tabsParent,
+.tokenListWrapper {
+  max-width: 100%;
+}
+.tabsParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.tokenListWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-inter);
+}
